@@ -1,0 +1,136 @@
+body
+{
+  overflow-x: hidden;
+
+}
+.navbar
+{
+  margin-bottom: 0px;
+  border-radius: 0;
+  background-color: white;
+  border: 0;
+}
+.navbar-brand p
+{
+  font-weight: 700;
+    text-transform: uppercase;
+    color: #10abe4;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    margin-left: 100px;
+}
+
+/*Position of brand in mobile devices*/
+@media (min-width:0px) and (max-width:992px)
+{
+  .navbar-brand p
+  {
+    margin-left: 0;
+  }
+}
+
+.nav li a.nav-link
+{
+    font-size: 13px;
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #77797b;
+    text-align: center;
+}
+
+.nav li a.nav-link:hover,
+.nav li a.nav-link:focus
+{
+  font-size: 13px;
+  font-family: 'Helvetica Neue';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #10abe4 !important;
+  background-color: white;
+  text-align: center;
+}
+
+.nav li a.nav-link:visited
+{
+  background-color: white !important;
+}
+
+.nav li a.nav-link:visited
+{
+  background-color: white !important;
+}
+
+.navbar-toggle
+{
+  border-color: #10abe4 !important;
+}
+
+.Flyer
+{
+  background-color: #10abe4;
+}
+
+.Flyer select
+{
+  width: 100%;
+  padding-right: 38px;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+
+  /* Hide arrow on FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: ellipsis;
+
+}
+
+.Flyer #size, #paperMaterial, #printing, #quantity {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Flyer #size, #paperMaterial, #printing, #quantity   select::-ms-expand {
+  display: none;
+}
+.Flyer #size, #paperMaterial, #printing, #quantity   optgroup {
+  color: inherit;
+  font: inherit;
+}
+
+.theme-rounded #size, #paperMaterial, #printing, #quantity   {
+  border: 2px solid #2980b9;
+  border-radius: 20px;
+  width: 170px;
+  /* <svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22"><path d="M9 17L2.07 5L15.93 5z" stroke-width="2" stroke="#2980b9" fill="transparent"/></svg> */
+  background: #fff url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2222%22%20viewBox%3D%220%200%2018%2022%22%3E%3Cpath%20d%3D%22M9%2017L2.07%205L15.93%205z%22%20stroke-width%3D%222%22%20stroke%3D%22%232980b9%22%20fill%3D%22transparent%22%2F%3E%3C%2Fsvg%3E') right 14px center no-repeat ;
+}
+
+.theme-rounded #size, #paperMaterial, #printing, #quantity  {
+  padding: 12px 38px 12px 16px;
+  font: 400 10px 'Montserrat', sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #2980b9;
+}
+
+select:disabled
+{
+  background-color: #E8E8E8;
+}
+
+
+.ShirtDetails select
+{
+  min-width: 150px;
+    text-align-last:center;
+}
+
+.ShirtDetails select option
+{
+  text-align-last: center;
+}
